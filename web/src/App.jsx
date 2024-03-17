@@ -5,6 +5,7 @@ const StyledApp = styled.div`
   flex-direction: column;
   align-items: flex-end;
   padding-inline: 0.8rem;
+  font-size: 2.2rem;
 
   h1 {
     text-align: end;
