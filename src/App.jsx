@@ -5,6 +5,10 @@ const StyledApp = styled.div`
   flex-direction: column;
   align-items: flex-end;
   padding-inline: 0.8rem;
+
+  h1 {
+    text-align: end;
+  }
 `;
 
 export function App() {
