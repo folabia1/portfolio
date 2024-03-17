@@ -4,8 +4,6 @@
 # If you need more help, visit the Dockerfile reference guide at
 # https://docs.docker.com/go/dockerfile-reference/
 
-# Want to help us make this template better? Share your feedback here: https://forms.gle/ybq9Krt8jtBL3iCk7
-
 ARG NODE_VERSION=20.0.0
 
 FROM node:${NODE_VERSION}-alpine
@@ -13,7 +11,7 @@ FROM node:${NODE_VERSION}-alpine
 # Use production node environment by default.
 ENV NODE_ENV production
 
-# Navigate to the following working directoring
+# Navigate to the following working directory.
 WORKDIR /usr/src/app
 
 # Copy the rest of the source files into the image.
