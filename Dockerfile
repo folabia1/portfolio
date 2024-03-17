@@ -17,6 +17,13 @@ WORKDIR /usr/src/app
 # Copy the rest of the source files into the image.
 COPY . .
 
+# Build web code
+WORKDIR /usr/src/app/web
+RUN npm ci
+RUN npm run build
+
+# Build server code
+WORKDIR /usr/src/app/server
 RUN npm ci
 
 # Run the application as a non-root user.
