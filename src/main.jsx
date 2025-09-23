@@ -17,7 +17,7 @@ function isMobileDevice() {
   return /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent) || window.matchMedia("(pointer: coarse)").matches;
 }
 
-ReactDOM.createRoot(document.getElementById("root")).render(
+ReactDOM.createRoot(document.getElementById("app-root")).render(
   <React.StrictMode>
     <RouterProvider router={router} />
   </React.StrictMode>,
