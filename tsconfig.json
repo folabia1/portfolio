@@ -16,6 +16,7 @@
     "noImplicitOverride": true,
 
     /* If NOT transpiling with TypeScript: */
+    "jsx": "react",
     "module": "preserve",
     "noEmit": true,
 
