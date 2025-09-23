@@ -1,3 +1,4 @@
+import React from "react";
 import styled from "styled-components";
 import { Footer } from "../sections/footer/Footer";
 import { Header } from "../sections/header/Header";
