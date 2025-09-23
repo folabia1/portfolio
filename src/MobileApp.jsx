@@ -12,10 +12,10 @@ const StyledApp = styled.div`
   }
 `;
 
-export function App() {
+export function MobileApp() {
   return (
     <StyledApp>
-      <h1>Folabi Ayonrinde</h1>
+      <h1>Folabi Ayonrinde (mobile)</h1>
       <p className="subtitle">Full-stack developer.</p>
     </StyledApp>
   );
