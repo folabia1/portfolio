@@ -1,0 +1,12 @@
+name: deploy-pages
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Deploy Pages"
+      - run: npm run build
