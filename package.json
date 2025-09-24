@@ -6,10 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "preview": "vite preview",
     "format:check": "prettier --check .",
     "lint:check": "eslint .",
-    "typescript:check": "tsc",
-    "preview": "vite preview"
+    "typescript:check": "tsc"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^4.2.1",
