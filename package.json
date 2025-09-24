@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "format:check": "prettier --check .",
     "lint:check": "eslint .",
     "typescript:check": "tsc",
     "preview": "vite preview"
