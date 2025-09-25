@@ -1,8 +1,9 @@
 import React from "react";
 import styled from "styled-components";
-import { Footer } from "../sections/footer/Footer";
-import { Header } from "../sections/header/Header";
-import { MainArea } from "../sections/maIn-area/MainArea";
+
+// import { Footer } from "../sections/footer/Footer";
+// import { Header } from "../sections/header/Header";
+// import { MainArea } from "../sections/maIn-area/MainArea";
 
 const StyledApp = styled.div`
   display: flex;
@@ -13,9 +14,10 @@ const StyledApp = styled.div`
 export function DesktopApp() {
   return (
     <StyledApp>
-      <Header />
+      Testing!
+      {/* <Header />
       <MainArea />
-      <Footer />
+      <Footer /> */}
     </StyledApp>
   );
 }
