@@ -21,4 +21,5 @@ jobs:
         with:
           name: github-pages
           path: docs/
-      - uses: actions/deploy-pages@v4
+      - id: deployment
+        uses: actions/deploy-pages@v4
