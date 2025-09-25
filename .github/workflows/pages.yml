@@ -17,4 +17,8 @@ jobs:
       - run: |
           npm install
           npm run build
+      - uses: actions/upload-artifact@v4
+        with:
+          name: github-pages
+          path: /docs
       - uses: actions/deploy-pages@v4
