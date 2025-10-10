@@ -8,6 +8,7 @@ const StyledApp = styled.div`
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
+  height: 100%;
 `;
 
 export function DesktopApp() {
