@@ -7,6 +7,11 @@ const StyledHeader = styled.div`
   display: grid;
   grid-template-columns: 1fr auto 1fr;
 
+  .header-center {
+    display: flex;
+    gap: 0.8rem;
+  }
+
   .header-right {
     justify-self: end;
     display: flex;

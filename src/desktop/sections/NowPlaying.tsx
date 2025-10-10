@@ -1,15 +1,15 @@
 import React from "react";
 import styled from "styled-components";
 
-const StyledLibrary = styled.div`
+const StyledNowPlaying = styled.div`
   width: 30rem;
   background-color: #121212;
 `;
 
-export function Library() {
+export function NowPlaying() {
   return (
-    <StyledLibrary>
-      <div>Library</div>
-    </StyledLibrary>
+    <StyledNowPlaying>
+      <div></div>
+    </StyledNowPlaying>
   );
 }
